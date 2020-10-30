@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		40A462DE254C70C800D677DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A462DD254C70C800D677DB /* AppDelegate.swift */; };
 		40A462E0254C70C800D677DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A462DF254C70C800D677DB /* SceneDelegate.swift */; };
-		40A462E2254C70C800D677DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A462E1254C70C800D677DB /* ViewController.swift */; };
+		40A462E2254C70C800D677DB /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A462E1254C70C800D677DB /* TimelineViewController.swift */; };
 		40A462E5254C70C800D677DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A462E3254C70C800D677DB /* Main.storyboard */; };
 		40A462E7254C70CB00D677DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A462E6254C70CB00D677DB /* Assets.xcassets */; };
 		40A462EA254C70CB00D677DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A462E8254C70CB00D677DB /* LaunchScreen.storyboard */; };
+		40A462F4254C757900D677DB /* TimelineLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A462F3254C757900D677DB /* TimelineLayout.swift */; };
+		40A462F7254C83A300D677DB /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A462F6254C83A300D677DB /* PinterestLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40A462DA254C70C800D677DB /* DiffableDataSourceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffableDataSourceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A462DD254C70C800D677DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40A462DF254C70C800D677DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40A462E1254C70C800D677DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40A462E1254C70C800D677DB /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		40A462E4254C70C800D677DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40A462E6254C70CB00D677DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40A462E9254C70CB00D677DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40A462EB254C70CB00D677DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A462F3254C757900D677DB /* TimelineLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineLayout.swift; sourceTree = "<group>"; };
+		40A462F6254C83A300D677DB /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				40A462DD254C70C800D677DB /* AppDelegate.swift */,
 				40A462DF254C70C800D677DB /* SceneDelegate.swift */,
-				40A462E1254C70C800D677DB /* ViewController.swift */,
+				40A462E1254C70C800D677DB /* TimelineViewController.swift */,
 				40A462E3254C70C800D677DB /* Main.storyboard */,
 				40A462E6254C70CB00D677DB /* Assets.xcassets */,
 				40A462E8254C70CB00D677DB /* LaunchScreen.storyboard */,
 				40A462EB254C70CB00D677DB /* Info.plist */,
+				40A462F3254C757900D677DB /* TimelineLayout.swift */,
+				40A462F6254C83A300D677DB /* PinterestLayout.swift */,
 			);
 			path = DiffableDataSourceTest;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40A462E2254C70C800D677DB /* ViewController.swift in Sources */,
+				40A462F7254C83A300D677DB /* PinterestLayout.swift in Sources */,
+				40A462F4254C757900D677DB /* TimelineLayout.swift in Sources */,
+				40A462E2254C70C800D677DB /* TimelineViewController.swift in Sources */,
 				40A462DE254C70C800D677DB /* AppDelegate.swift in Sources */,
 				40A462E0254C70C800D677DB /* SceneDelegate.swift in Sources */,
 			);
